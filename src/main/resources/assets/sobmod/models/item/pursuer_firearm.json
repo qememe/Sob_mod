@@ -1,0 +1,250 @@
+{
+  "textures": {
+    "particle": "minecraft:blocks/iron_block",
+    "receiver": "minecraft:blocks/iron_block",
+    "barrel": "minecraft:blocks/coal_block",
+    "wood": "minecraft:blocks/planks_spruce"
+  },
+  "elements": [
+    {
+      "from": [
+        7,
+        6,
+        0
+      ],
+      "to": [
+        9,
+        9,
+        5
+      ],
+      "faces": {
+        "up": {
+          "texture": "#wood"
+        },
+        "down": {
+          "texture": "#wood"
+        },
+        "north": {
+          "texture": "#wood"
+        },
+        "south": {
+          "texture": "#wood"
+        },
+        "east": {
+          "texture": "#wood"
+        },
+        "west": {
+          "texture": "#wood"
+        }
+      }
+    },
+    {
+      "from": [
+        7,
+        8,
+        4
+      ],
+      "to": [
+        9,
+        10,
+        11
+      ],
+      "faces": {
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        },
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "from": [
+        7.4,
+        8.4,
+        10
+      ],
+      "to": [
+        8.6,
+        9.6,
+        16
+      ],
+      "faces": {
+        "up": {
+          "texture": "#barrel"
+        },
+        "down": {
+          "texture": "#barrel"
+        },
+        "north": {
+          "texture": "#barrel"
+        },
+        "south": {
+          "texture": "#barrel"
+        },
+        "east": {
+          "texture": "#barrel"
+        },
+        "west": {
+          "texture": "#barrel"
+        }
+      }
+    },
+    {
+      "from": [
+        7,
+        6,
+        6
+      ],
+      "to": [
+        9,
+        8,
+        8
+      ],
+      "faces": {
+        "up": {
+          "texture": "#wood"
+        },
+        "down": {
+          "texture": "#wood"
+        },
+        "north": {
+          "texture": "#wood"
+        },
+        "south": {
+          "texture": "#wood"
+        },
+        "east": {
+          "texture": "#wood"
+        },
+        "west": {
+          "texture": "#wood"
+        }
+      }
+    },
+    {
+      "from": [
+        7.45,
+        10,
+        10
+      ],
+      "to": [
+        8.55,
+        11,
+        11
+      ],
+      "faces": {
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        },
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        }
+      }
+    },
+    {
+      "from": [
+        7.65,
+        9.6,
+        15
+      ],
+      "to": [
+        8.35,
+        10.2,
+        16
+      ],
+      "faces": {
+        "up": {
+          "texture": "#receiver"
+        },
+        "down": {
+          "texture": "#receiver"
+        },
+        "north": {
+          "texture": "#receiver"
+        },
+        "south": {
+          "texture": "#receiver"
+        },
+        "east": {
+          "texture": "#receiver"
+        },
+        "west": {
+          "texture": "#receiver"
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "scale": [
+        0.88,
+        0.88,
+        0.88
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+buildscript {
+    repositories {
+        maven { url = 'https://maven.minecraftforge.net/' }
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:3.0.197'
+    }
+}
+
+apply plugin: 'net.minecraftforge.gradle'
+
+version = '3.0'
+group = 'ru.qememe.sobmod'
+
+sourceCompatibility = targetCompatibility = '1.8'
+
+minecraft {
+    mappings channel: 'snapshot', version: '20171003-1.12'
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.12.2-14.23.5.2864'
+}
+
+compileJava.options.encoding = 'UTF-8'
+jar {
+    from('LICENSE')
+    finalizedBy('reobfJar')
+}
+
+processResources {
+    inputs.property 'version', project.version
+    filesMatching(['mcmod.info', 'version.properties']) {
+        expand(version: project.version)
+    }
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "modid": "sobmod",
+    "name": "SobMod",
+    "description": "57 disasters, encounters and challenges for singleplayer and multiplayer.",
+    "version": "${version}",
+    "mcversion": "1.12.2"
+  }
+]

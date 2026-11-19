@@ -1,0 +1,20 @@
+/.gradle/
+/build/
+/run/
+/out/
+/.idea/
+/.vscode/
+.classpath
+.project
+.settings/
+*.iml
+*.log
+*.class
+*.jar
+!/gradle/wrapper/gradle-wrapper.jar
+
+# Local deployment instructions, drafts and archived build artifacts
+/AGENTS.md
+/MODDING_PLAN.md
+/события1.md
+/.local/

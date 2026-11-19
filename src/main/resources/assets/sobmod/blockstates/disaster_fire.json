@@ -1,0 +1,14 @@
+{
+  "multipart": [
+    {
+      "apply": [
+        { "model": "minecraft:fire_floor0" },
+        { "model": "minecraft:fire_floor1" }
+      ]
+    },
+    { "apply": { "model": "minecraft:fire_side0" } },
+    { "apply": { "model": "minecraft:fire_side1", "y": 90 } },
+    { "apply": { "model": "minecraft:fire_side_alt0", "y": 180 } },
+    { "apply": { "model": "minecraft:fire_side_alt1", "y": 270 } }
+  ]
+}
